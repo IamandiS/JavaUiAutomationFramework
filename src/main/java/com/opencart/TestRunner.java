@@ -24,7 +24,7 @@ public class TestRunner {
 
         driver.quit();
 
-        System.out.println("The execution is over");
+        System.out.println("The execution is over ok");
 
 
 
