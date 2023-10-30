@@ -10,7 +10,6 @@ public class DriverManager {
     private static String webDriverType = "Chrome";
     private static DriverManager instance;
     private WebDriver driver;
-
     private DriverManager(){
         switch (webDriverType.toUpperCase()){
             case "CHROME":
@@ -43,7 +42,4 @@ public class DriverManager {
     public  WebDriver getDriver(){
         return driver;
     }
-
-
-
 }
