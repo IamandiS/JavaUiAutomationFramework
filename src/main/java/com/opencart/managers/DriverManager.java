@@ -10,7 +10,6 @@ import org.openqa.selenium.safari.SafariDriver;
 public class DriverManager {
     private static DriverManager instance;
     private WebDriver driver;
-
     private DriverManager(){
        String webDriverType = "Chrome";
         switch (webDriverType.toUpperCase()){
@@ -56,7 +55,4 @@ public class DriverManager {
     public  WebDriver getDriver(){
         return driver;
     }
-
-
-
 }
