@@ -35,7 +35,7 @@ public class TestRunner {
 
 
         WebElement emailInput = driver.findElement(By.cssSelector("#input-email"));
-        String randomEmail = RandomDataManager.generateRandomEmial();
+        String randomEmail = RandomDataManager.generateRandomEmail();
         emailInput.sendKeys(randomEmail);
         System.out.println(randomEmail);
 
